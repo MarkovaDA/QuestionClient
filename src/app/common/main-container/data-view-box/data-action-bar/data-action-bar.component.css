@@ -1,0 +1,6 @@
+@media only screen and (max-width: 480px) {
+  .action-bar {
+    display: block !important;
+    height: auto !important;
+  }
+}

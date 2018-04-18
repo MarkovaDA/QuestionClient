@@ -1,0 +1,11 @@
+.left-menu-list-item .mdl-list__item {
+  border-bottom: 1px solid #f0f0f0;
+}
+.left-menu-list-item .mdl-list__item-primary-content {
+  white-space: pre-line !important;
+}
+.left-menu-list-item .selected-menu-list-item {
+  /*background-color: rgba(255,205,117,0.6)*/
+  background: #f0f0f0;
+  border-right: 2px solid orange;
+}
