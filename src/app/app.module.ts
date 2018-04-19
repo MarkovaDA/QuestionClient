@@ -10,6 +10,7 @@ import { MainContainerComponent } from './common/main-container/main-container.c
 import { NotifyBoxComponent } from './common/notify-box/notify-box.component';
 import { UserProfileBoxComponent } from './common/main-container/user-profile-box/user-profile-box.component';
 import { SearchComponent } from './common/main-container/data-view-box/data-action-bar/search/search.component';
+import { SortComponent } from './common/main-container/data-view-box/data-action-bar/sort/sort.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SearchComponent } from './common/main-container/data-view-box/data-acti
     DataViewBoxComponent,
     DataActionBarComponent,
     DataTableComponent,
-    SearchComponent
+    SearchComponent,
+    SortComponent
   ],
   imports: [
     BrowserModule
